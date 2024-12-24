@@ -1,0 +1,18 @@
+{% extends "fourth_task/menu.html" %}
+
+{% block pagename %}
+<h1>{{ title_p }}</h1>
+{% endblock %}
+
+
+{% block menu %}
+{{ block.super }}
+{% endblock %}
+
+{% block content %}
+<h2>{{ content_p }}</h2>
+<br><img src="https://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2018-04/TASS_17586832.jpg?itok=DUzAUFMa">
+<br><br><a href="/">
+    <button><h2>Вернуться обратно</h2></button>
+</a>
+{% endblock %}
